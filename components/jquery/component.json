@@ -1,9 +1,0 @@
-{
-  "name": "jquery",
-  "main": "index.js",
-  "version": "1.8.1",
-  "repository": {
-    "type": "asset",
-    "url": "http://code.jquery.com/jquery-1.8.1.js"
-  }
-}
