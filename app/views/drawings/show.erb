@@ -1,0 +1,9 @@
+<h1>Drawing <%= @drawing.id -%></h1>
+
+<h2>Data</h2>
+<ul>
+  <% @data.each do |d| -%>
+    <li><%= d.to_json -%></li>
+  <% end -%>
+</ul>
+
