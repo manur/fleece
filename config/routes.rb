@@ -16,8 +16,8 @@ Fleece::Application.routes.draw do
   #   resources :products
 
   #TODO - redefine routes once authentication is implemented
-  resources :data
-  resources :drawings
+  #resources :data
+  #resources :drawings
 
   # Sample resource route with options:
   #   resources :products do
