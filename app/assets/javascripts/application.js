@@ -6,4 +6,5 @@
 //= require jquery
 //= require jquery_ujs
 //= require twitter/bootstrap
+//= require google_analytics
 //= require_tree .
