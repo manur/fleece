@@ -46,6 +46,8 @@ test:
   host: localhost
   port: 5432
 
+
+# FIXME : Lock this down behind an ACL
 production:
   adapter: postgresql
   encoding: unicode
