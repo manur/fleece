@@ -17,7 +17,7 @@ group :assets do
 end
 
 gem 'jquery-rails'
-#gem 'juggernaut'
+gem 'juggernaut'
 
 # Use unicorn as the web server
 gem 'unicorn'

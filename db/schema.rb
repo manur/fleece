@@ -13,25 +13,9 @@
 
 ActiveRecord::Schema.define(:version => 20120914010628) do
 
-  create_table "data", :force => true do |t|
-    t.text     "content"
-    t.integer  "user_account_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "data_drawings", :id => false, :force => true do |t|
-    t.integer "drawing_id"
-    t.integer "datum_id"
-  end
-
-  create_table "drawings", :force => true do |t|
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
   create_table "user_accounts", :force => true do |t|
     t.string   "username"
+    t.string   "secret"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

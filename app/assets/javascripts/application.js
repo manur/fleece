@@ -7,4 +7,5 @@
 //= require jquery_ujs
 //= require twitter/bootstrap
 //= require google_analytics
+//= require juggernaut
 //= require_tree .
